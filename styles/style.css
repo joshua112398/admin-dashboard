@@ -159,4 +159,11 @@ button {
 
 main {
   background-color: #ecfeff;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: auto auto;
+}
+
+main .projects {
+  grid-row: 1 / 3;
 }
