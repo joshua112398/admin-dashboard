@@ -202,7 +202,7 @@ main {
   height: 200px;
   box-shadow: 3px 3px 3px rgba(53, 53, 53, 0.192);
   border-radius: 10px;
-  padding: 30px;
+  padding: 20px 25px;
   display: grid;
   grid-template-rows: auto 1fr auto;
   gap: 5px;
@@ -210,4 +210,32 @@ main {
 
 .project-buttons {
   justify-self: end;
+}
+
+.announcements, .trending {
+  font-size: 0.8rem;
+  max-width: 250px;
+  display: grid;
+  padding: 15px;
+  grid-template-rows: min-content 1fr;
+  gap: 10px;
+}
+
+.divider {
+  background-color: rgba(128, 128, 128, 0.404);
+}
+
+.card.announcement-box {
+  font-size: 0.7rem;
+  height: min-content; 
+  background: white;
+  display: grid;
+  grid-template-rows: 1fr 1px 1fr 1px 1fr;
+  gap: 20px;
+}
+
+.announcement {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 5px;
 }
